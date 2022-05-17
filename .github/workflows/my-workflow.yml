@@ -34,5 +34,5 @@ jobs:
           who-to-greet: 'Andres .. '
 
       - name: script
-        runs: |
+        run: |
           echo ${{steps.solicitarsaludo.outputs.time}}
