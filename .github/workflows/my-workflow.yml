@@ -26,7 +26,7 @@ jobs:
       #     issueTitle: "a cat fact for you"
 
       - name: soliciatr saludo
-        uses: actions/jsaction  
+        uses:  ./.github/actions/jsaction  
         id: solicitarsaludo
         with:
           who-to-greet: 'Andres .. '
